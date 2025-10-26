@@ -39,9 +39,9 @@ if uploaded_file is not None:
         0: {"name": "Cardboard", "recyclable": True, "tip": "Rinse and sort plastics by type before recycling."},
         1: {"name": "Glass", "recyclable": True, "tip": "Keep paper clean and dry. Avoid mixing with food waste."},
         2: {"name": "Metal", "recyclable": True, "tip": "Crush cans to save space and remove any labels if possible."},
-        3: {"name": "Paper", "recyclable": True, "tip": "Rinse glass containers and separate by color if required."
+        3: {"name": "Paper", "recyclable": True, "tip": "Rinse glass containers and separate by color if required."},
+        4: {"name": "Plastic", "recyclable": False, "tip": "Check the recycling number. #1 and #2 are most recyclable."
            "Plastic Bottles: Hanging Planters / Herb Garden: Cut large soda bottles horizontally or vertically. Puncture drainage holes, decorate the outside, and hang them by string or wire to create a space-saving wall garden."},
-        4: {"name": "Plastic", "recyclable": False, "tip": "Check the recycling number. #1 and #2 are most recyclable."},
         5: {"name": "Trash", "non-recyclable": True, "tip": "Take electronics to a certified e-waste recycling facility."},
     }
 
