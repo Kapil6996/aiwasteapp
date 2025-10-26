@@ -39,7 +39,7 @@ if uploaded_file is not None:
         0: {"name": "Cardboard", "recyclable": True, "tip": "Rinse and sort plastics by type before recycling."},
         1: {"name": "Glass", "recyclable": True, "tip": "Keep paper clean and dry. Avoid mixing with food waste."},
         2: {"name": "Metal", "recyclable": True, "tip": "Crush cans to save space and remove any labels if possible."},
-        3: {"name": "Paper", "recyclable": True, "tip": "Rinse glass containers and separate by color if required.","tips": "1.Newspaper/Magazine Pages:	Woven Baskets or Coasters:	Roll the paper tightly into long, thin tubes or strips, then weave them together, securing them with glue, to create durable baskets, placemats, or coasters.
+        3: {"name": "Paper", "recyclable": True, "tip": "Rinse glass containers and separate by color if required.","tips": "1.Newspaper/Magazine Pages:	Woven Baskets or Coasters:	Roll the paper tightly into long, thin tubes or strips, then weave them together, securing them with glue, to create durable baskets, placemats, or coasters."
 
 "2.Junk Mail/Scraps:	Shredded Packing Material:	Run unwanted paper (excluding glossy or photo paper) through a shredder to create simple, effective cushioning for shipping parcels."
 
