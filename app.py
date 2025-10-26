@@ -37,7 +37,11 @@ if uploaded_file is not None:
     # --- Class Info ---
     class_info = {
         0: {"name": "Cardboard", "recyclable": True, "tip": "Rinse and sort plastics by type before recycling."},
-        1: {"name": "Glass", "recyclable": True, "tip": "Keep paper clean and dry. Avoid mixing with food waste."},
+        1: {"name": "Glass", "recyclable": True, "tip": "Keep paper clean and dry. Avoid mixing with food waste.", "tips": "1. Mason Jars / Jam JarsPantry: Storage: Clean and dry the jars. Use them for storing dried goods like rice, pasta, spices, or bulk coffee. Label the lids for easy identification."
+
+"2. Glass Jars/Bottles: Vases or Candle Holders: Decorate the exterior with paint, string, or glitter. Place a tea light inside (or wrap battery-operated fairy lights around the bottle) to create atmospheric lighting."
+
+"3. Small Glass Jars: Bathroom Organization: Use them to hold cotton swabs, cotton balls, makeup brushes, or hair ties."},
         2: {"name": "Metal", "recyclable": True, "tip": "Crush cans to save space and remove any labels if possible.","tips": 
 "1. Tin Cans (Soup, Vegetable):	Desk Organizers:	Clean thoroughly, remove any sharp edges (if possible, use a safety can opener). Paint or cover them with paper/fabric. Use them to hold pens, scissors, or rulers."
 
