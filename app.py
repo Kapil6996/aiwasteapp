@@ -36,7 +36,14 @@ if uploaded_file is not None:
     
     # --- Class Info ---
     class_info = {
-        0: {"name": "Cardboard", "recyclable": True, "tip": "Rinse and sort plastics by type before recycling."},
+        0: {"name": "Cardboard", "recyclable": True, "tip": "Rinse and sort plastics by type before recycling.","tips": 
+"1. Cereal Boxes: Magazine or File Holders	: Cut the box diagonally from one corner to the opposite side to create a stylish slanted holder. Cover with decorative paper, fabric, or paint."
+
+"2. Toilet Paper / Paper Towel Rolls:	Cord Organizers:	Insert coiled power cords or extension cords into the tubes to keep them untangled in a drawer. Label the outside of the tube with the cord's use or length."
+
+"3. Shoeboxes:	Decorative Storage Boxes:	Cover the boxes with wallpaper, contact paper, or paint. Use them to store photos, craft supplies, office clutter, or socks."
+
+"4. Egg Cartons (Cardboard):	Seed Starter Trays:	Fill the cups with soil and seeds. Once the seedlings are ready, you can often tear off the individual cup and plant it directly into the ground, as the cardboard will biodegrade"},
         1: {"name": "Glass", "recyclable": True, "tip": "Keep paper clean and dry. Avoid mixing with food waste.", "tips": "1. Mason Jars / Jam JarsPantry: Storage: Clean and dry the jars. Use them for storing dried goods like rice, pasta, spices, or bulk coffee. Label the lids for easy identification."
 
 "2. Glass Jars/Bottles: Vases or Candle Holders: Decorate the exterior with paint, string, or glitter. Place a tea light inside (or wrap battery-operated fairy lights around the bottle) to create atmospheric lighting."
