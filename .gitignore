@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+backend/venv/
+
+# Cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Model and dataset
+*.h5
+*.hdf5
+backend/dataset/
+backend/waste_classifier.h5
+
+# System files
+.DS_Store
