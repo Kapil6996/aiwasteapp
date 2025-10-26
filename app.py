@@ -6,6 +6,7 @@ from PIL import Image
 # Load your trained model
 model = tf.keras.models.load_model("waste_classifier_portable.keras")
 
+
 # Define category mapping (edit these as per your training classes)
 categories = {
     0: {"name": "Plastic", "recyclable": True, "tips": "Rinse and dry plastic bottles before recycling. Avoid black plastic — many centers can't process it."},
