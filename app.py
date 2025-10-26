@@ -38,7 +38,14 @@ if uploaded_file is not None:
     class_info = {
         0: {"name": "Cardboard", "recyclable": True, "tip": "Rinse and sort plastics by type before recycling."},
         1: {"name": "Glass", "recyclable": True, "tip": "Keep paper clean and dry. Avoid mixing with food waste."},
-        2: {"name": "Metal", "recyclable": True, "tip": "Crush cans to save space and remove any labels if possible."},
+        2: {"name": "Metal", "recyclable": True, "tip": "Crush cans to save space and remove any labels if possible.","tips": 
+"1. Tin Cans (Soup, Vegetable):	Desk Organizers:	Clean thoroughly, remove any sharp edges (if possible, use a safety can opener). Paint or cover them with paper/fabric. Use them to hold pens, scissors, or rulers."
+
+"2. Coffee Tins / Cookie Tins:	Storage for Tools/Craft Supplies:	Large metal tins are durable and great for storing nails, screws, paint brushes, or bulk craft materials."
+
+"3. Clean Aluminum Cans:	Wall Art/Sculpture:	Flatten and cut into shapes (with extreme caution) or leave intact and paint to be incorporated into creative wall hangings or mobiles."
+
+"4. Old Metal Spoons:	DIY Coat Hooks:	Bend the handle of the spoon back at a 90-degree angle and screw the base onto a piece of wood for a rustic coat or key hook."},
         3: {"name": "Paper", "recyclable": True, "tip": "Rinse glass containers and separate by color if required.","tips": "1.Newspaper/Magazine Pages:	Woven Baskets or Coasters:	Roll the paper tightly into long, thin tubes or strips, then weave them together, securing them with glue, to create durable baskets, placemats, or coasters."
 
 "2.Junk Mail/Scraps:	Shredded Packing Material:	Run unwanted paper (excluding glossy or photo paper) through a shredder to create simple, effective cushioning for shipping parcels."
