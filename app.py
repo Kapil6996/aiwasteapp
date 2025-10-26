@@ -40,9 +40,8 @@ if uploaded_file is not None:
         1: {"name": "Glass", "recyclable": True, "tip": "Keep paper clean and dry. Avoid mixing with food waste."},
         2: {"name": "Metal", "recyclable": True, "tip": "Crush cans to save space and remove any labels if possible."},
         3: {"name": "Paper", "recyclable": True, "tip": "Rinse glass containers and separate by color if required."},
-        4: {"name": "Plastic", "recyclable": True, "tip": "Check the recycling number. #1 and #2 are most recyclable.","tips": 
-           "Plastic Bottles: Hanging Planters / Herb Garden: Cut large soda bottles horizontally or vertically. Puncture drainage holes, decorate the outside, and hang them by string or wire to create a space-saving wall garden.
-           Bottle Bottoms: Flower Decorations:	Cut off the rigid, patterned bottoms of large soda bottles, paint them bright colours, and string them together to create garlands, wind chimes, or faux flowers."},
+        4: {"name": "Plastic", "recyclable": True, "tip": "Check the recycling number. #1 and #2 are most recyclable.","tips": "Plastic Bottles: Hanging Planters / Herb Garden: Cut large soda bottles horizontally or vertically. Puncture drainage holes, decorate the outside, and hang them by string or wire to create a space-saving wall garden."
+           "Bottle Bottoms: Flower Decorations:	Cut off the rigid, patterned bottoms of large soda bottles, paint them bright colours, and string them together to create garlands, wind chimes, or faux flowers."},
         5: {"name": "Trash", "non-recyclable": False, "tip": "Take electronics to a certified e-waste recycling facility."},
     }
 
