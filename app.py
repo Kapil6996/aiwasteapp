@@ -36,13 +36,13 @@ if uploaded_file is not None:
     
     # --- Class Info ---
     class_info = {
-        0: {"name": "Plastic", "recyclable": True, "tip": "Rinse and sort plastics by type before recycling."},
-        1: {"name": "Paper", "recyclable": True, "tip": "Keep paper clean and dry. Avoid mixing with food waste."},
+        0: {"name": "Cardboard", "recyclable": True, "tip": "Rinse and sort plastics by type before recycling."},
+        1: {"name": "Glass", "recyclable": True, "tip": "Keep paper clean and dry. Avoid mixing with food waste."},
         2: {"name": "Metal", "recyclable": True, "tip": "Crush cans to save space and remove any labels if possible."},
-        3: {"name": "Glass", "recyclable": True, "tip": "Rinse glass containers and separate by color if required."},
-        4: {"name": "Organic Waste", "recyclable": False, "tip": "Compost organic waste instead of sending it to landfills."},
-        5: {"name": "E-waste", "recyclable": True, "tip": "Take electronics to a certified e-waste recycling facility."},
-        6: {"name": "Textile", "recyclable": Sometimes, "tip": "Donate wearable clothes and recycle torn fabrics responsibly."},
+        3: {"name": "Paper", "recyclable": True, "tip": "Rinse glass containers and separate by color if required."
+           "Plastic Bottles: Hanging Planters / Herb Garden: Cut large soda bottles horizontally or vertically. Puncture drainage holes, decorate the outside, and hang them by string or wire to create a space-saving wall garden."},
+        4: {"name": "Plastic", "recyclable": False, "tip": "Check the recycling number. #1 and #2 are most recyclable."},
+        5: {"name": "Trash", "non-recyclable": True, "tip": "Take electronics to a certified e-waste recycling facility."},
     }
 
     info = class_info.get(predicted_class, {"name": "Unknown", "recyclable": "N/A", "tip": "Try uploading a clearer image."})
